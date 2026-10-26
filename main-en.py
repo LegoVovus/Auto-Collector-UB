@@ -2,7 +2,7 @@ import keyboard
 import time
 
 i = int(input("Select the amount of cycles: "))
-print("Open Discord chat and click press Enter")
+print("Open Discord chat and press Enter")
 print("Running script...")
 time.sleep(3)
 
