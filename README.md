@@ -8,3 +8,8 @@ Script is customizable and you can change prefix, time and everything in it!
 
 ## Requirements
 Script is coded with Python and to run it you need to have *time* and *keyboard* libaries.
+```
+pip install time
+pip install requests
+```
+^^^ put that in your cmd
