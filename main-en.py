@@ -15,7 +15,7 @@ for counter in range(1, i + 1):
     print(f"Cycle {counter}: Collect ✅Successful")
     keyboard.write(";dep all", delay=0.1)
     keyboard.send("enter")
-    print(f"Cycle: {counter}: Deposit ✅Successful")
+    print(f"Cycle {counter}: Deposit ✅Successful")
 
     time.sleep(1810)   # 30 min - 1800
     keyboard.write(";work", delay=0.1)
