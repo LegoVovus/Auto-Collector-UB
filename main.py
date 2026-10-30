@@ -2,7 +2,6 @@ import keyboard
 import config
 import time
 
-
 if config.LANG.upper() == "RU":
     input("Пожалуйста, настройте CONFIG перед использованием программы! (ENTER)")
     print(f"Signed in with {config.USERNAME}")
@@ -81,3 +80,5 @@ elif config.LANG == "EN":
             print(f"Cycle {counter} Ended.")
         
             time.sleep(1810)   # 30 мин - 1800
+else:
+    print("Something went wrong...")
