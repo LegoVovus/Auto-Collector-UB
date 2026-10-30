@@ -4,8 +4,11 @@
 - Open Discord chat
 - Wait for 3 seconds
 
-The script setting is done! Now it will be writing ";work" every 30m; ";collect" and ";dep all" every 1h. </br>
+The script setting is done! Now it will be writing ";collect", ";work" and ";dep all" every 1h, ";work" every 30m. </br>
 Script is customizable and you can change prefix, time and everything in it!
+
+> [!WARNING]
+> Auto Collector v1 is no longer maintained! But it can be installed in *releases*.
 
 ## Requirements
 Script is coded with Python and to run it you need to have *time* and *keyboard* libaries.
