@@ -1,4 +1,5 @@
-# Auto Collector — simple auto-collector UnbelivaBoat script.
+# Auto Collector v2.0 — simple auto-collector UnbelivaBoat script.
+- Edit CONFIG and configure anything you want
 - Select the amount of cycles
 - Open Discord chat
 - Wait for 3 seconds
