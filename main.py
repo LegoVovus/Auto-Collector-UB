@@ -2,6 +2,11 @@ import keyboard
 import config
 import time
 
+if config.TRANSFER == True:
+    if config.TRANSFER_USERNAME in config.BLACKLIST:
+        print(f"WARNING! Found BLACKLISTED USERNAME ({config.TRANSFER_USERNAME}).")
+        quit
+
 if config.LANG.upper() == "RU":
     input("Пожалуйста, настройте CONFIG перед использованием программы! (ENTER)")
     print(f"Signed in with {config.USERNAME}")
