@@ -2,6 +2,7 @@
 - Edit CONFIG and configure anything you want:
   * Custom Discord TAB
   * Your username
+  * Custom prefix for commands
   * Enable/disable transfer
   * Transfer username
   * *Blacklist* (in test) 
